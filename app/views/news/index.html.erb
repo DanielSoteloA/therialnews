@@ -1,0 +1,25 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Noticias</h1>
+<%= link_to "Crear Nueva Noticia", new_news_path %>
+
+<table class="table" id="news">
+  <thead>
+    <tr>
+      <th scope="col">N°</th>
+      <th scope="col">Noticia</th>
+      <th scope="col">Autor</th>
+      <th scope="col">ver</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @news.each do |news| %>
+    <tr>
+      <th scope="row">1</th>
+      <td><%=news.detail.byteslice(0, 60)%>...</td>
+      <td><%=news.author%></td>
+      <td><%= link_to "Mostrar toda la Noticia", news %></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
