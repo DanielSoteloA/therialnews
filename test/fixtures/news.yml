@@ -2,6 +2,10 @@
 
 one:
   detail: MyText
+  author: MyString
+  user: one
 
 two:
   detail: MyText
+  author: MyString
+  user: two
