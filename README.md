@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# TheRialNews
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Para Realizar Pruebas Unitarias
+    - rails t test/controllers/news_controller_test.rb
+![Descripción de la imagen](app/assets/images/img-punitarias.jpg "Pruebas Unitarias")
